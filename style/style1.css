@@ -1,0 +1,217 @@
+@import "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500";
+
+
+.menu, .button {
+
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.menu {
+
+  margin-top: 3.3%;
+  margin-left: -2%;
+  -webkit-transition: -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92), -webkit-transform 1.125s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  cursor: pointer;
+}
+
+.button {
+
+  position: absolute;
+  border-radius: 50%;
+  mix-blend-mode: multiply;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  font: 12px Gill sans, sans-serif, black;
+
+  -webkit-transition: -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  transition: transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  ransition: transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92), -webkit-transform 0.75s cubic-bezier(0.39, 1.52, 0.46, 0.92);
+  will-change: transform;
+}
+.button.closed {
+  -webkit-transform: translate3d(0, 0, 0) !important;
+          transform: translate3d(0, 0, 0) !important;
+  font-family: transparent;
+
+}
+
+.logo {
+
+  position: fixed;
+  z-index: 100;
+  
+  mix-blend-mode: normal;
+  visibility: visible;
+}
+
+/*blue*/
+.LIAN {
+  position: fixed;
+  width: 5px;
+  height: 5px;
+  color : white;
+  background-color: white;
+  margin-top: 4px;
+  margin-left: -20px;
+  top: 45px;
+  left: 27%;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+.closed .LIAN {
+
+  -webkit-transform: translate3d(1000px, -3000px, 0) rotate(-180deg) scale(0.1,0.1);
+          transform: translate3d(1000px, -3000px, 0) rotate(-180deg) scale(0.1,0.1);
+          color: transparent;
+
+
+}
+/*vert*/
+.TAITOU {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  color : black;
+  margin-top: 4px;
+  margin-left: -20px;
+  top: 45px;
+  left: 36.8%;
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
+
+}
+
+.closed .TAITOU {
+  -webkit-transform: translate3d(20%, -1000%, 0) rotate(-180deg) scale(0.1,0.1);
+          transform: translate3d(20%, -1000%, 0) rotate(-180deg) scale(0.1,0.1);
+          color: transparent;
+}
+/*jaune*/
+.JIESHAO {
+  position: fixed;
+  width: 14px;
+  height: 14px;
+  background-color: black;
+  color : black;
+  margin-top: 4px;
+  margin-left: -20px;
+  top: 170px;
+  left: 25%;
+  -webkit-transition-duration: 0.9s;
+          transition-duration: 0.9s;
+
+}
+.closed .JIESHAO {
+  -webkit-transform: translate3d(20%, -5000%, 0) rotate(-180deg) scale(0.1,0.1);
+          transform: translate3d(20%, -5000%, 0) rotate(-180deg) scale(0.1,0.1);
+          color: transparent;
+}
+
+/*orange*/
+.RUANJIAN {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  color : black;
+  margin-top: 4px;
+  margin-left: -20px;
+  top: 485px;
+  left: 25%;
+  -webkit-transition-duration: 1.05s;
+          transition-duration: 1.05s;
+
+}
+.closed .RUANJIAN {
+  -webkit-transform: translate3d(1000%, -8000%, 0) rotate(-180deg) scale(0.1,0.1);
+          transform: translate3d(1000%, -8000%, 0) rotate(-180deg) scale(0.1,0.1);
+          color: transparent;
+}
+
+/*rouge*/
+.contact {
+  position: fixed;
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  color : black;
+  margin-top: 20%;
+  margin-left: 10%;
+  top: 285%;
+  left:70%;
+  -webkit-transition-duration: 1.2s;
+          transition-duration: 1.2s;
+
+}
+.closed .contact {
+  -webkit-transform: translate3d(20%, -8000%, 0) rotate(-180deg) scale(0.1,0.1);
+          transform: translate3d(20%, -8000%, 0) rotate(-180deg) scale(0.1,0.1);
+          color: transparent;
+}
+
+.pp {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color : black;
+  margin-top: 20%;
+  margin-left: 2%;
+  top: 250%;
+  left: 15%;
+  -webkit-transition-duration: 1.2s;
+          transition-duration: 1.2s;
+
+}
+.closed .pp {
+  -webkit-transform: translate3d(1000%, -8000%, 0) rotate(-180deg) scale(0.1,0.1);
+          transform: translate3d(1000%, -8000%, 0) rotate(-180deg) scale(0.1,0.1);
+          color: transparent;
+}
+
+.number{
+  cursor: pointer;
+}
+
+.links{
+  width: 20px;
+  height: auto;
+  top: 78%;
+  right: 3%;
+  z-index: 999;
+  position: fixed;
+
+}
+
+.partager{
+  width: 20px;
+  height: auto;
+  top: 92%;
+  left: 3%;
+  z-index: 999;
+  position: fixed;
+
+}
+
+.mail{
+  width: 20px;
+  height: auto;
+  top:5%;
+  right: 3%;
+  z-index: 999;
+  position: fixed;
+
+}
