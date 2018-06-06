@@ -22,6 +22,7 @@
   -webkit-transform-origin: top left;
           transform-origin: top left;
   cursor: pointer;
+  z-index: 1;
 }
 
 .button {

@@ -114,7 +114,9 @@ a:active {
 
 .point{
   top:-195%;
-  left:-63%;
+  left:10%;
+  width:80%;
+  align:right;
 
 
 }
