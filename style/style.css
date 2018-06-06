@@ -113,12 +113,15 @@ a:active {
 
 
 .point{
-  top:-170%;
+  top:-195%;
   left:-63%;
+
+  z-index: 999;
 
 }
 
 .photo {
+  font-size:30px;
   top: 1300px;
 	left:-200px;
   width: 30px;
@@ -133,12 +136,14 @@ a:active {
   top: 800px;
 	left: 350px;
   color: #B8B8B8;
+  font-size:45px;
 
 }
 .photo2 {
   top: 1500px;
 	left: 0px;
   color: #B8B8B8;
+  font-size:45px;
 
 }
 .photo3 {
@@ -146,12 +151,14 @@ a:active {
   top: 1300px;
 	left:1300px;
   color: #B8B8B8;
+  font-size:45px;
 
 }
 
 
 
 .video {
+  font-size:30px;
   top: 1450px;
 	left: 1600px;
   width: 30px;
@@ -165,22 +172,26 @@ a:active {
   top: 1600px;
   left:1650px;
   color: #B8B8B8;
+  font-size:45px;
 
 }
 .video2{
   top: 2300px;
   left:1800px;
   color: #B8B8B8;
+  font-size:45px;
 
 }
 .video3{
   top: 2500px;
   left:3300px;
   color: #B8B8B8;
+  font-size:45px;
 
 }
 
 .graphic {
+  font-size:30px;
   left: 4100px;
 	top: 1650px;
 	transform: rotate(-90deg) translateY(2.5em);
@@ -197,12 +208,14 @@ a:active {
 	top: 1200px;
   color: #B8B8B8;
 	transform: rotate(-90deg) translateY(2.5em);
+  font-size:45px;
 
 }
 .graphic2{
   left: 2900px;
 	top: 50px;
   color: #B8B8B8;
+  font-size:45px;
 	transform: rotate(-180deg) translateY(2.5em);
 
 }
@@ -211,6 +224,7 @@ a:active {
   left: 1690px;
 	top: -700px;
   color: #B8B8B8;
+  font-size:45px;
 	transform: rotate(-180deg) translateY(2.5em);
 
 }
@@ -219,6 +233,7 @@ a:active {
   left: 980px;
 	top: -1100px;
   color: #B8B8B8;
+  font-size:45px;
 
 }
 
@@ -252,6 +267,7 @@ a:active {
 	top: 1173px;
 	left: 930px;
   width: 300px;
+  z-index: 1;
 }
 
 .number6 {

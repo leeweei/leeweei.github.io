@@ -51,7 +51,7 @@
 
   position: fixed;
   z-index: 100;
-  
+
   mix-blend-mode: normal;
   visibility: visible;
 }
@@ -65,7 +65,7 @@
   background-color: white;
   margin-top: 4px;
   margin-left: -20px;
-  top: 45px;
+  top: 55px;
   left: 27%;
   -webkit-transition-duration: 0.6s;
           transition-duration: 0.6s;
